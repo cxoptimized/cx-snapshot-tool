@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/mini-snapshot.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/mini-snapshot",
+      "dest": "api/mini-snapshot.js"
+    }
+  ]
+}

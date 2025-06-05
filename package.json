@@ -1,0 +1,16 @@
+{
+  "name": "cx-snapshot",
+  "version": "1.0.0",
+  "main": "api/mini-snapshot.js",
+  "scripts": {
+    "start": "node api/mini-snapshot.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemailer": "^6.10.1",
+    "pdfkit": "^0.13.0",
+    "googleapis": "^128.0.0",
+    "dotenv": "^16.4.5",
+    "get-stream": "^7.0.0"
+  }
+}
